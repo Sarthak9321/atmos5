@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atmos — Good light. Better evenings.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Instrument+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<div class="top">A little warmth, delivered. Complimentary shipping on orders $150+</div>
+<header class="nav"><a class="logo" href="#">Atmos<i></i></a>
+<nav><a href="#studio">Glow Studio</a><a href="#rooms">Shop all</a><a href="#best">Shop by type</a><a href="#moods">Shop by mood</a><a href="#story">Our story</a><a href="#guide">The light guide</a></nav>
+<div class="ico"><button aria-label="Search">⌕</button><button aria-label="Account">☺</button><button id="cart" aria-label="Cart">Bag <b id="count">0</b></button></div></header>
+<main>
+<section class="hero"><div class="hl"><p class="eye"><s></s>Light for the way you live</p>
+<h1>Good light.<br>Better evenings.</h1>
+<p class="sub">Turn the everyday into your favorite part of the day. Thoughtfully chosen lamps for a softer, slower kind of home.</p>
+<a class="btn" href="#best">Find your glow <span>→</span></a><p class="welcome">☼ A warmer welcome. Every time you come home.</p></div>
+<figure class="hi" id="hi"><img src="hero.jpg" alt="Arc floor lamp glowing over an armchair"><span class="light" id="light"></span>
+<a class="corner" href="#best"><small>In this corner</small>The Arc floor lamp · $289<span>↗</span></a></figure></section>
+<section class="trust"><p><b>On its way to a warmer home</b>Free shipping on orders $150+</p><p><b>Find your just-right light</b>30 days to feel at home with it</p><p><b>Beautiful, for the long run</b>Thoughtful materials. A 2-year warranty.</p></section>
+
+<section class="studio" id="studio"><div class="head"><div><p class="eye">New · The Glow Studio</p><h2>Try the light before it comes home.</h2></div><p class="lede">Pick a room, drag the lamp where you’d put it, then set the hour, the warmth and the dimmer. We’ll match the piece.</p></div>
+<div class="st-wrap"><div class="stage" id="stage"><img id="simg" src="off.jpg" alt="Your room"><div class="dusk" id="dusk"></div><div class="beam" id="beam"></div><button class="orb" id="orb" aria-label="Drag the lamp"><i></i></button><span class="hint">Drag the lamp ✦</span></div>
+<div class="ctl"><div class="chips" id="chips"><button class="on" data-i="0">Living room</button><button data-i="1">Reading corner</button><button data-i="2">Desk</button><button data-i="3">Dining</button></div>
+<label>Hour <output id="o1">Evening</output><input id="hr" type="range" min="0" max="100" value="70"></label>
+<label>Warmth <output id="o2">2700K</output><input id="wm" type="range" min="2200" max="4000" value="2700"></label>
+<label>Dimmer <output id="o3">70%</output><input id="dm" type="range" min="10" max="100" value="70"></label>
+<div class="pick"><img id="pimg" src="arc.jpg" alt=""><div><small>Your match</small><h3 id="pn">Arc</h3><p id="pd"></p></div><button class="btn" id="padd">Add <span>→</span></button></div></div></div></section>
+<section class="rooms" id="rooms"><div class="head"><div><p class="eye">A place for every glow</p><h2>Good company for every room.</h2></div><a class="ul" href="#best">Explore all lighting ↗</a></div>
+<div class="g4">
+<a href="#best"><div class="ph"><img src="table.jpg" alt="" loading="lazy"></div><h3>Table lamps <span>↗</span></h3><p>A little pool of possibility</p></a>
+<a href="#best"><div class="ph"><img src="floor.jpg" alt="" loading="lazy"></div><h3>Floor lamps <span>↗</span></h3><p>Make a corner your own</p></a>
+<a href="#best"><div class="ph"><img src="pendant.jpg" alt="" loading="lazy"></div><h3>Pendants <span>↗</span></h3><p>Bring everyone together</p></a>
+<a href="#best"><div class="ph"><img src="wall.jpg" alt="" loading="lazy"></div><h3>Wall lights <span>↗</span></h3><p>Small footprint. Lovely feeling.</p></a></div></section>
+
+<section class="best" id="best"><div class="head"><div><p class="eye">The Atmos edit</p><h2>Well-loved for a reason.</h2><p class="lede">Meet the pieces making everyday spaces feel a little more like home.</p></div><a class="ul" href="#best">Shop bestsellers ↗</a></div>
+<div class="g4" id="grid"></div></section>
+
+<section class="room" id="room"><p class="eye">Less overhead. More atmosphere.</p>
+<div class="head"><h2>Same room. A different feeling.</h2><p class="lede">It’s not about making a room brighter. It’s about making it yours. A warm pool of light changes everything.</p></div>
+<div class="cmp" id="cmp"><img src="off.jpg" alt="Room with the light off"><img class="on" src="on.jpg" alt="Room with the Atmos on" id="on">
+<span class="lab l1">The light off</span><span class="lab l2">The Atmos on</span><div class="bar" id="bar"><button aria-label="Drag to turn the light on">☼</button></div>
+<input id="rng" type="range" min="0" max="100" value="50" aria-label="Turn the light on"></div>
+<div class="cap"><div><b>One small change. A whole new way to unwind.</b><small>Featuring Luma in Chalk · A soft, dimmable 2700K glow</small></div><a class="ul" href="#best">Bring Luma home — $129 ↗</a></div></section>
+
+<section class="moods" id="moods"><div class="head"><div><p class="eye">Start with a feeling</p><h2>What’s your kind of evening?</h2></div><p class="lede">Different moments call for different light. Find the feeling you want to come home to.</p></div>
+<div class="fl">
+<a class="m" href="#best"><img src="cozy.jpg" alt="" loading="lazy"><h3>Cozy corners <span>↗</span></h3><p>For one more chapter, and nowhere to be.</p></a>
+<a class="m" href="#best"><img src="focus.jpg" alt="" loading="lazy"><h3>Focus time <span>↗</span></h3><p>A clearer desk. A quieter mind.</p></a>
+<a class="m" href="#best"><img src="statement.jpg" alt="" loading="lazy"><h3>Statement pieces <span>↗</span></h3><p>A little sculpture. A lot of personality.</p></a></div></section>
+
+<section class="made" id="story"><div class="mi"><img src="material.jpg" alt="Linen shade on a ceramic lamp" loading="lazy"><span class="tagp">Natural linen. Quiet character.</span></div>
+<div class="mt"><p class="eye">Thoughtful by design</p><h2>Lovely to look at.<br>Even better to live with.</h2>
+<p>The grain of oak. The softness of linen. The quiet character of ceramic. We choose pieces that bring a little more feeling to your home — on or off.</p>
+<div class="two"><div><b>Honest materials</b>Natural textures that only get better with time.</div><div><b>Nothing extra</b>Enduring shapes. Thoughtful details. Just-right light.</div></div><a class="ul" href="#story">The Atmos story ↗</a></div></section>
+
+<section class="guide" id="guide"><div class="head"><div><p class="eye">A little light on the subject</p><h2>Your just-right light starts here.</h2></div><a class="ul" href="#guide">Read the light guide ↗</a></div>
+<div class="g3">
+<article><span>01</span><h3>Start with what you do.</h3><p>Reading, hosting, or simply slowing down? Choose a focused task light for getting things done, or a shaded table lamp for a softer, all-around glow.</p><small>Our tip: layer two or three light sources</small></article>
+<article><span>02</span><h3>Give it a little room.</h3><p>Let the lamp fit the furniture, not fight it. For a reading corner, keep the bottom of the shade close to seated eye level so the bulb stays out of sight.</p><small>Our tip: measure your spot before you shop</small></article>
+<article><span>03</span><h3>Warm is a feeling.</h3><p>Look for 2200–2700K for that golden, end-of-day warmth. Add a dimmer and let the same lamp take you from one more task to one more chapter.</p><small>Our tip: lower kelvins = a warmer glow</small>
+<label class="kel">Try it: <input id="k" type="range" min="2200" max="4000" value="2700"><output id="ko">2700K</output></label></article></div>
+<p class="help">Still finding your glow? We’re happy to help you choose. <a class="ul" href="#news">Ask us about your space ↗</a></p></section>
+
+<section class="quote"><div class="rt"><p class="eye">Good light. Happy homes.</p><p class="score"><b>4.9</b> / 5</p><p class="st">★★★★★</p><p>From 286 warmly lit homes</p><a class="ul" href="#">Read their stories</a></div>
+<blockquote>“I used to turn on the big light and call it a day. Now I turn on Luma, make some tea, and my whole apartment feels like an exhale.”<cite>Maya R. · Brooklyn, NY<br>Verified buyer · Luma table lamp</cite></blockquote></section>
+
+<section class="news" id="news"><div><p class="eye">Let the good light in</p><h2>A softer sort of inbox.</h2><p>New finds, thoughtful spaces, and a little lighting wisdom.<br>Plus, 10% off your first order. A warm welcome, from us.</p></div>
+<form id="f" novalidate><div><input id="em" type="email" placeholder="Your email address" aria-label="Your email address"><button class="btn">Count me in <span>→</span></button></div><small id="msg">Only the good stuff. Unsubscribe anytime. By signing up, you agree to our Privacy Policy.</small></form></section>
+</main>
+<footer><div class="fc"><div><h3>Good light, good company.</h3><p>A question, a corner, a whole new home.<br>Let’s find your glow together.</p><a href="mailto:hello@Atmos.com">hello@Atmos.com</a></div>
+<div><b>Find your light</b><a href="#best">Shop all lighting</a><a href="#best">Table lamps</a><a href="#best">Floor lamps</a><a href="#best">Pendants</a><a href="#best">Wall lights</a></div>
+<div><b>Here to help</b><a href="#">Shipping &amp; returns</a><a href="#">Care &amp; warranty</a><a href="#">FAQs</a><a href="#guide">The light guide</a><a href="#">Contact us</a></div>
+<div><b>A little more</b><a href="#story">Our story</a><a href="#">Trade program</a><a href="#">Instagram</a><a href="#">Pinterest</a></div></div>
+<div class="word" id="word">Atmos<i></i></div><p class="tl">Made for the hours that are yours.</p>
+<div class="fine"><span>© 2026 Atmos. A little light goes a long way.</span><span>Privacy · Terms · Accessibility</span><span>United States · USD $</span><span>Visa · Mastercard · Amex · Apple Pay</span></div></footer>
+<aside class="drawer" id="drawer" aria-label="Your bag"><div class="dh"><h3>Your bag</h3><button id="dx" aria-label="Close">✕</button></div><div class="fs"><p id="fst"></p><div><i id="fsb"></i></div></div><ul id="items"></ul><div class="df"><p><span>Subtotal</span><b id="sub">$0</b></p><button class="btn" id="chk">Checkout <span>→</span></button></div></aside><div class="veil" id="veil"></div><div class="toast" id="toast" role="status"></div><script src="script.js"></script></body></html>
